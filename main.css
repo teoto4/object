@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    width: 95vw;
+    margin: 50px auto 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 1.5px 1.5px 1.5px black;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: rgb(6, 6, 94);
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    color: white;
+}
+
+.card button:disabled{
+    background-color: brown;
+    cursor: no-drop;
+}
+
+
+function changeDisabledOption (value){
+
+}
